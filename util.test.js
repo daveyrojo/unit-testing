@@ -17,9 +17,9 @@ test("Expect 2 * 2 = 4", () => {
 });
 
 test('Expect 2 != 1, 2 + 1 = 3 ', () => {
-  expect(moreAdvMath(2, 1).toBe(3));
+  expect(moreAdvMath(2, 1)).toBe(3);
 });
 
 test('Expect c = 4, 2 + 2 - 4 = 0', () => {
-  expect(moreAdvMath(2, 2)).toBe(4);
+  expect(moreAdvMath(2, 2)).toBe(0);
 });
