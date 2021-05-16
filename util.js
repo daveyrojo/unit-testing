@@ -12,4 +12,4 @@ function moreAdvMath(a, b) {
     }
 };
 
-module.exports = {add, sub, div, mult};
+module.exports = {add, sub, div, mult, moreAdvMath};
