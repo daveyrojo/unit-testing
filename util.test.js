@@ -13,5 +13,5 @@ test("Expect 2 / 1 = 2", () => {
 });
 
 test("Expect 2 * 2 = 4", () => {
-  expect(add(2, 2)).toBe(4);
+  expect(mult(2, 2)).toBe(4);
 });
